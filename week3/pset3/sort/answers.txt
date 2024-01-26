@@ -1,0 +1,14 @@
+sort1 uses: Bubble Sort
+
+
+How do you know?: It has the lowest runtime on the sorted list but takes a lot longer on reversed list.
+
+sort2 uses: Merge Sort
+
+How do you know?: This is because the runtime for merge sort on reversed list and sorted list are very similar.
+
+
+sort3 uses: Selection Sort
+
+How do you know?: It has the highest running time amongst the three algorithms.
+

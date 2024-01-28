@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+// Defining function prototypes
 bool is_digit(string key);
 string encrypt(string plaintext, int key);
 

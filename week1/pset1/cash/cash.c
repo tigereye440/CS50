@@ -1,16 +1,20 @@
 #include <cs50.h>
 #include <stdio.h>
 
+//Defining constant global variables
 const int QUARTERS = 25;
 const int DIMES = 10;
 const int NICKELS = 5;
 const int PENNIES = 1;
 
+// Coin function prototype
 int coins(int change);
 
 int main(void)
 {
     int change_owed;
+
+    //Prompting user for integer input
     do
     {
         change_owed = get_int("Enter your change in cents: ");
@@ -20,6 +24,8 @@ int main(void)
     printf("Coins:  %i\n", coins(change_owed));
 }
 
+
+// Change function
 int coins(int change)
 {
     int remainder = 0;
